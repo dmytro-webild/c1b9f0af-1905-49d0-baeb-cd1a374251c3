@@ -68,23 +68,23 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/small-house-figurine_1161-290.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/small-house-figurine_1161-290.jpg?_wi=1",
           imageAlt: "Tiny home cabin in forest",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/plants-pot-with-watering-can_23-2148905227.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/plants-pot-with-watering-can_23-2148905227.jpg?_wi=1",
           imageAlt: "Tiny house exterior design",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/man-explores-traditional-icelandic-landscape_346278-294.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-explores-traditional-icelandic-landscape_346278-294.jpg?_wi=1",
           imageAlt: "Small house sunset view",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/wooden-surface-sunset-beach-background_181624-28761.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/wooden-surface-sunset-beach-background_181624-28761.jpg?_wi=1",
           imageAlt: "Tiny home porch",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/young-man-sitting-outside-talking-phone_259150-58610.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-man-sitting-outside-talking-phone_259150-58610.jpg?_wi=1",
           imageAlt: "Modern rustic tiny home",
         },
         {
@@ -251,7 +251,7 @@ export default function LandingPage() {
           quote: "Living in my tiny home has changed my perspective on life. Everything is so cozy and functional!",
           tag: "Happy Customer",
           avatarSrc: "http://img.b2bpic.net/free-photo/close-up-senior-couple-dancing_23-2149071573.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/small-house-figurine_1161-290.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/small-house-figurine_1161-290.jpg?_wi=2",
           imageAlt: "tiny home wooden exterior",
         },
         {
@@ -262,7 +262,7 @@ export default function LandingPage() {
           quote: "The team was so helpful and the craftsmanship is incredible. Couldn't be happier.",
           tag: "Homeowner",
           avatarSrc: "http://img.b2bpic.net/free-photo/thrilled-confident-manager-business-attire-celebrates-victorious-milestone_482257-111932.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/plants-pot-with-watering-can_23-2148905227.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/plants-pot-with-watering-can_23-2148905227.jpg?_wi=2",
           imageAlt: "tiny house porch garden",
         },
         {
@@ -273,7 +273,7 @@ export default function LandingPage() {
           quote: "Finally achieved my dream of owning a home. Small town lifestyle at its best.",
           tag: "Proud Owner",
           avatarSrc: "http://img.b2bpic.net/free-photo/long-shot-woman-taking-picture_23-2148258897.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-explores-traditional-icelandic-landscape_346278-294.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-explores-traditional-icelandic-landscape_346278-294.jpg?_wi=2",
           imageAlt: "tiny house landscape morning",
         },
         {
@@ -284,7 +284,7 @@ export default function LandingPage() {
           quote: "The space utilization is genius. I have everything I need in such a beautiful package.",
           tag: "Satisfied",
           avatarSrc: "http://img.b2bpic.net/free-photo/medium-shot-smiley-woman-with-tablet_23-2149986663.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/wooden-surface-sunset-beach-background_181624-28761.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/wooden-surface-sunset-beach-background_181624-28761.jpg?_wi=2",
           imageAlt: "cozy tiny house sunset",
         },
         {
@@ -295,7 +295,7 @@ export default function LandingPage() {
           quote: "Best investment I ever made. The design is smart and the building process was seamless.",
           tag: "New Owner",
           avatarSrc: "http://img.b2bpic.net/free-photo/close-up-senior-couple-dancing_23-2149071573.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-man-sitting-outside-talking-phone_259150-58610.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/young-man-sitting-outside-talking-phone_259150-58610.jpg?_wi=2",
           imageAlt: "tiny home front entrance",
         },
       ]}
