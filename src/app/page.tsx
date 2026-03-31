@@ -41,7 +41,7 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "contact"},
       ]}
-      brandName="Sutton Tiny Homes"
+      brandName="Sutton Customized Tiny Homes - 111 S Butler St, Sutton NE"
     />
   </div>
 
