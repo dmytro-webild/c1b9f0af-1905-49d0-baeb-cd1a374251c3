@@ -125,7 +125,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-guitar-near-table-with-smartphone-notepad-cup-drink-cookies_23-2147969773.jpg",
         },
       ]}
-      title="Our Models"
+      title="Our Listings"
       description="Thoughtfully designed spaces that maximize comfort and style."
     />
   </div>
@@ -149,7 +149,7 @@ export default function LandingPage() {
       features={[
         {
           id: "f1",
-          title: "Eco-Friendly Materials",
+          title: "Low Cost",
           description: "Sustainably sourced wood and green insulation to protect the planet.",
           imageSrc: "http://img.b2bpic.net/free-photo/cozy-house-concept-with-wooden-toy-house_23-2149595132.jpg",
         },
@@ -203,7 +203,7 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/professional-carpenter-checking-smoothness-wood-product-workshop_342744-828.jpg",
         },
       ]}
-      title="Our Builders"
+      title="Our Team"
       description="Meet the team of local artisans bringing your dream home to life."
     />
   </div>
