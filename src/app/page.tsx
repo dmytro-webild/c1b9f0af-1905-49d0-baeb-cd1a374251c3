@@ -105,24 +105,24 @@ export default function LandingPage() {
       products={[
         {
           id: "p1",
-          name: "The Homestead",
+          name: "Home 1",
           price: "$45,000",
           variant: "Rustic",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-walking-out-house_1303-25023.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930045474-o1e2snl7.webp",
         },
         {
           id: "p2",
-          name: "The Minimalist",
+          name: "Home 2",
           price: "$38,000",
           variant: "Modern",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-shot-white-building-hamilton-gardens-new-zealand-blue-sky_181624-13599.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930049486-vdc7xr12.jpg",
         },
         {
           id: "p3",
-          name: "The Artisan",
+          name: "Home 3",
           price: "$52,000",
           variant: "Craftsman",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-guitar-near-table-with-smartphone-notepad-cup-drink-cookies_23-2147969773.jpg",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930053573-kwkura2j.jpg",
         },
       ]}
       title="Our Listings"
@@ -149,7 +149,7 @@ export default function LandingPage() {
       features={[
         {
           id: "f1",
-          title: "Low Cost",
+          title: "Affordable Price",
           description: "Sustainably sourced wood and green insulation to protect the planet.",
           imageSrc: "http://img.b2bpic.net/free-photo/cozy-house-concept-with-wooden-toy-house_23-2149595132.jpg",
         },
