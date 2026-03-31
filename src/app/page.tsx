@@ -41,7 +41,7 @@ export default function LandingPage() {
         {
           name: "Contact",          id: "contact"},
       ]}
-      brandName="SmallTown Tiny Homes"
+      brandName="Sutton Tiny Homes"
     />
   </div>
 
@@ -59,13 +59,13 @@ export default function LandingPage() {
         {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928722379-cr0uqxpm.jpg",          imageAlt: "Tiny home cabin in forest"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928734251-ks9y2p0d.jpg",          imageAlt: "Tiny house exterior design"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930538517-9ju843gs.jpg",          imageAlt: "Tiny house exterior design"},
         {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928761031-xjd7rlmt.webp",          imageAlt: "Small house sunset view"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928779332-ejhjw3do.webp",          imageAlt: "Tiny home porch"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930545087-5q4lr7c2.jpg",          imageAlt: "Tiny home porch"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928806711-qo45lrzl.jpg",          imageAlt: "Modern rustic tiny home"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930549937-d91rem2n.jpg",          imageAlt: "Modern rustic tiny home"},
         {
           imageSrc: "http://img.b2bpic.net/free-photo/nomad-family-living-nature_23-2149431678.jpg",          imageAlt: "Small home wooden interior"},
       ]}
@@ -81,11 +81,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       products={[
         {
-          id: "p1",          name: "Home 1",          price: "$45,000",          variant: "Rustic",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930045474-o1e2snl7.webp"},
+          id: "p1",          name: "Home 1",          price: "Price ",          variant: "Rustic",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930580867-6k2twyhd.jpg"},
         {
-          id: "p2",          name: "Home 2",          price: "$38,000",          variant: "Modern",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930049486-vdc7xr12.jpg"},
+          id: "p2",          name: "Home 2",          price: "Price",          variant: "Modern",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930569259-dfpcoz3p.jpg"},
         {
-          id: "p3",          name: "Home 3",          price: "$52,000",          variant: "Craftsman",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930053573-kwkura2j.jpg"},
+          id: "p3",          name: "Home 3",          price: "Price",          variant: "Craftsman",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930053573-kwkura2j.jpg"},
       ]}
       title="Our Listings"
       description="Thoughtfully designed spaces that maximize comfort and style."
@@ -97,7 +97,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="Crafted with Care"
       description="Located in the heart of our community, we believe that small spaces should have big hearts. Every home we build is a testament to quality, sustainability, and the local spirit."
-      imageSrc="http://img.b2bpic.net/free-photo/artisan-doing-woodcutting_23-2150600787.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930662778-ltrznsvr.png"
       imageAlt="Small town craftsman workshop"
     />
   </div>
@@ -110,11 +110,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          id: "f1",          title: "Affordable Price",          description: "Sustainably sourced wood and green insulation to protect the planet.",          imageSrc: "http://img.b2bpic.net/free-photo/cozy-house-concept-with-wooden-toy-house_23-2149595132.jpg"},
+          id: "f1",          title: "Affordable Price",          description: "Sustainably sourced wood and green insulation to protect the planet.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930855522-x6pww1sq.png"},
         {
-          id: "f2",          title: "Energy Efficient",          description: "Designed for low impact and off-grid living options.",          imageSrc: "http://img.b2bpic.net/free-photo/homemade-fire-fenced-with-stones-two-benches-nearby_169016-15142.jpg"},
+          id: "f2",          title: "Energy Efficient",          description: "Designed for low impact and off-grid living options.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930897190-zmeb3uj4.png"},
         {
-          id: "f3",          title: "Smart Storage",          description: "Every inch of your home is utilized with clever, built-in storage.",          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-woman-drinking-coffee_23-2149596060.jpg"},
+          id: "f3",          title: "Smart Storage",          description: "Every inch of your home is utilized with clever, built-in storage.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774931067299-44cgp74p.png"},
       ]}
       title="Why Choose Us"
       description="We don't just build homes; we build lifestyle solutions for the modern dreamer."
@@ -129,13 +129,13 @@ export default function LandingPage() {
       useInvertedBackground={true}
       members={[
         {
-          id: "t1",          name: "John Doe",          role: "Master Carpenter",          imageSrc: "http://img.b2bpic.net/free-photo/man-crafting-instrument-his-workshop_23-2149018555.jpg"},
+          id: "t1",          name: "1",          role: "Master Carpenter",          imageSrc: "http://img.b2bpic.net/free-photo/man-crafting-instrument-his-workshop_23-2149018555.jpg"},
         {
-          id: "t2",          name: "Sarah Smith",          role: "Lead Architect",          imageSrc: "http://img.b2bpic.net/free-vector/flat-design-cv-template_23-2149877778.jpg"},
+          id: "t2",          name: "2",          role: "Lead Architect",          imageSrc: "http://img.b2bpic.net/free-photo/concentrated-colleagues-watching-statistic-charts-talking-about-work-professional-senior-managers-young-assistant-preparing-business-plan-teamwork-management-partnership-concept_74855-14229.jpg?id=12615850"},
         {
-          id: "t3",          name: "Mike Brown",          role: "Construction Lead",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-motivated-carpenter-standing-by-woodworking-machine-his-carpentry-workshop_342744-823.jpg"},
+          id: "t3",          name: "3",          role: "Construction Lead",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-motivated-carpenter-standing-by-woodworking-machine-his-carpentry-workshop_342744-823.jpg"},
         {
-          id: "t4",          name: "Jane Wilson",          role: "Company Founder",          imageSrc: "http://img.b2bpic.net/free-photo/professional-carpenter-checking-smoothness-wood-product-workshop_342744-828.jpg"},
+          id: "t4",          name: "4",          role: "Company Founder",          imageSrc: "http://img.b2bpic.net/free-photo/professional-carpenter-checking-smoothness-wood-product-workshop_342744-828.jpg"},
       ]}
       title="Our Team"
       description="Meet the team of local artisans bringing your dream home to life."
