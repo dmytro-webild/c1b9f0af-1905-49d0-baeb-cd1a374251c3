@@ -68,23 +68,23 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/small-house-figurine_1161-290.jpg?_wi=1",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928722379-cr0uqxpm.jpg",
           imageAlt: "Tiny home cabin in forest",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/plants-pot-with-watering-can_23-2148905227.jpg?_wi=1",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928734251-ks9y2p0d.jpg",
           imageAlt: "Tiny house exterior design",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/man-explores-traditional-icelandic-landscape_346278-294.jpg?_wi=1",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928761031-xjd7rlmt.webp",
           imageAlt: "Small house sunset view",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/wooden-surface-sunset-beach-background_181624-28761.jpg?_wi=1",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928779332-ejhjw3do.webp",
           imageAlt: "Tiny home porch",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/young-man-sitting-outside-talking-phone_259150-58610.jpg?_wi=1",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928806711-qo45lrzl.jpg",
           imageAlt: "Modern rustic tiny home",
         },
         {
