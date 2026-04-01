@@ -39,9 +39,9 @@ export default function ContactPage() {
       background={{ variant: "plain" }}
       tag="Contact Us"
       title="Get in Touch"
-      description="We're here to answer any questions about our homes, the process, or to schedule a visit. Reach out and let's start your tiny home journey."
+      description="email contact@suttontinyhomes.com for inquires"
       buttons={[
-        { text: "Email Us", href: "mailto:hello@smalltowntiny.com" },
+        { text: "Email Us", href: "mailto:contact@suttontinyhomes.com" },
       ]}
     />
   </div>
