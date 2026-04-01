@@ -47,7 +47,7 @@ export default function LandingPage() {
       title="Simple Living, Crafted Locally"
       description="Building sustainable, artisan tiny homes for the simple life you've always wanted. Experience small-town craftsmanship in every square foot."
       buttons={[
-        { text: "View Our Models", href: "/products" },
+        { text: "View Our Listings", href: "/products" },
         { text: "Contact Us", href: "/contact" },
       ]}
       mediaItems={[
