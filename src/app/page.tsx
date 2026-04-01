@@ -69,9 +69,9 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={true}
       products={[
-        { id: "p1", name: "Home 1", price: "Price ", variant: "Rustic", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930580867-6k2twyhd.jpg" },
-        { id: "p2", name: "Home 2", price: "Price", variant: "Modern", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930569259-dfpcoz3p.jpg" },
-        { id: "p3", name: "Home 3", price: "Price", variant: "Craftsman", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930053573-kwkura2j.jpg" },
+        { id: "p1", name: "Home 1", price: "Price ", variant: "Rustic", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930580867-6k2twyhd.jpg?_wi=2" },
+        { id: "p2", name: "Home 2", price: "Price", variant: "Modern", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930569259-dfpcoz3p.jpg?_wi=2" },
+        { id: "p3", name: "Home 3", price: "Price", variant: "Craftsman", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930053573-kwkura2j.jpg?_wi=2" },
       ]}
       title="Our Listings"
       description="Thoughtfully designed spaces that maximize comfort and style."
