@@ -54,6 +54,8 @@ export default function LandingPage() {
       buttons={[
         {
           text: "View Our Models",          href: "#products"},
+        {
+          text: "Contact Us",          href: "#contact"},
       ]}
       mediaItems={[
         {
