@@ -32,9 +32,9 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
-        { name: "Models", id: "products" },
-        { name: "Our Story", id: "about" },
-        { name: "Process", id: "features" },
+        { name: "Models", id: "/products" },
+        { name: "Our Story", id: "#about" },
+        { name: "Process", id: "#features" },
         { name: "Contact", id: "/contact" },
       ]}
       brandName="Sutton Customized Tiny Homes - 111 S Butler St, Sutton NE"
@@ -47,7 +47,7 @@ export default function LandingPage() {
       title="Simple Living, Crafted Locally"
       description="Building sustainable, artisan tiny homes for the simple life you've always wanted. Experience small-town craftsmanship in every square foot."
       buttons={[
-        { text: "View Our Models", href: "#products" },
+        { text: "View Our Models", href: "/products" },
         { text: "Contact Us", href: "/contact" },
       ]}
       mediaItems={[
@@ -156,7 +156,7 @@ export default function LandingPage() {
       <FooterSimple
       columns={[
         { title: "Company", items: [{ label: "About Us", href: "#about" }, { label: "Contact", href: "/contact" }] },
-        { title: "Models", items: [{ label: "Homestead", href: "#products" }, { label: "Minimalist", href: "#products" }] },
+        { title: "Models", items: [{ label: "Homestead", href: "/products" }, { label: "Minimalist", href: "/products" }] },
       ]}
       bottomLeftText="© 2024 SmallTown Tiny Homes"
       bottomRightText="Built with love in Small Town, USA."
