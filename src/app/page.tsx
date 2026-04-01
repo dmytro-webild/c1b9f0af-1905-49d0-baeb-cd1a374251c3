@@ -95,9 +95,9 @@ export default function LandingPage() {
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={false}
       features={[
-        { id: "f1", title: "Affordable Price", description: "Sustainably sourced wood and green insulation to protect the planet.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930855522-x6pww1sq.png" },
-        { id: "f2", title: "Energy Efficient", description: "Designed for low impact and off-grid living options.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930897190-zmeb3uj4.png" },
-        { id: "f3", title: "Smart Storage", description: "Every inch of your home is utilized with clever, built-in storage.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774931067299-44cgp74p.png" },
+        { id: "f1", title: "Affordable Price", description: "Sustainably sourced wood and green insulation to protect the planet.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1775018948436-fkv33kt3.png" },
+        { id: "f2", title: "Sleek Design", description: "Designed for low impact and off-grid living options.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1775019299166-r7r3oqah.jpg" },
+        { id: "f3", title: "Smart Storage", description: "Every inch of your home is utilized with clever, built-in storage.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1775019064234-o9i72oeb.png" },
       ]}
       title="Why Choose Us"
       description="We don't just build homes; we build lifestyle solutions for the modern dreamer."
