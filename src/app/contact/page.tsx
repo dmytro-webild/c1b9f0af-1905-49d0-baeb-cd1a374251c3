@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
+import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 
@@ -34,15 +34,13 @@ export default function ContactPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCTA
-      useInvertedBackground={false}
-      background={{ variant: "plain" }}
+      <ContactSplit
       tag="Contact Us"
       title="Get in Touch"
-      description="email contact@suttontinyhomes.com for inquires"
-      buttons={[
-        { text: "Email Us", href: "mailto:contact@suttontinyhomes.com" },
-      ]}
+      description="Have questions about our tiny homes? Send us a message and we'll get back to you soon."
+      onSubmit={(email: string) => console.log("Form submitted", email)}
+      buttonText="Submit Inquiry"
+      inputPlaceholder="Enter your email"
     />
   </div>
 
