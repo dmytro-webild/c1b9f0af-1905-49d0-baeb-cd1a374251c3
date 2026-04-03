@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FeatureCardThree from '@/components/sections/feature/featureCardThree/FeatureCardThree';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
@@ -33,8 +32,8 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         { name: "Models", id: "/products" },
-        { name: "Our Story", id: "#about" },
-        { name: "Process", id: "#features" },
+        { name: "Our Story", id: "/about" },
+        { name: "Process", id: "/features" },
         { name: "Contact", id: "/contact" },
       ]}
       brandName="Sutton Customized Tiny Homes - 111 S Butler St, Sutton NE"
@@ -155,7 +154,7 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterSimple
       columns={[
-        { title: "Company", items: [{ label: "About Us", href: "#about" }, { label: "Contact", href: "/contact" }] },
+        { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Contact", href: "/contact" }] },
         { title: "Models", items: [{ label: "Homestead", href: "/products" }, { label: "Minimalist", href: "/products" }] },
       ]}
       bottomLeftText="© 2024 SmallTown Tiny Homes"
