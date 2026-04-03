@@ -42,6 +42,8 @@ export default function ContactPage() {
       buttons={[{ text: "Submit Inquiry", href: "#" }]}
       className="flex justify-center items-center"
       contentClassName="text-center"
+      background={{ variant: "plain" }}
+      useInvertedBackground={false}
     />
   </div>
 
