@@ -24,6 +24,7 @@ export default function ContactPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
       navItems={[
+        { name: "Home", id: "/" },
         { name: "Models", id: "/products" },
         { name: "Our Story", id: "/about" },
         { name: "Process", id: "/features" },
@@ -41,6 +42,8 @@ export default function ContactPage() {
       onSubmit={(email: string) => console.log("Form submitted", email)}
       buttonText="Submit Inquiry"
       inputPlaceholder="Enter your email"
+      background={{ variant: "plain" }}
+      useInvertedBackground={false}
     />
   </div>
 
