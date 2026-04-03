@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplit from '@/components/sections/contact/ContactSplit';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 
@@ -35,14 +35,16 @@ export default function ContactPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactSplit
-      tag="Contact Us"
+      <ContactSplitForm
       title="Get in Touch"
       description="Have questions about our tiny homes? Send us a message and we'll get back to you soon."
-      onSubmit={(email: string) => console.log("Form submitted", email)}
+      inputs={[
+        { name: "name", type: "text", placeholder: "Full Name", required: true },
+        { name: "email", type: "email", placeholder: "Email Address", required: true }
+      ]}
+      textarea={{ name: "message", placeholder: "How can we help?", rows: 4, required: true }}
+      onSubmit={(data: Record<string, string>) => console.log("Form submitted", data)}
       buttonText="Submit Inquiry"
-      inputPlaceholder="Enter your email"
-      background={{ variant: "plain" }}
       useInvertedBackground={false}
     />
   </div>
