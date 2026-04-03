@@ -114,7 +114,7 @@ export default function LandingPage() {
         { id: "t1", name: "1", role: "Master Carpenter", imageSrc: "http://img.b2bpic.net/free-photo/man-crafting-instrument-his-workshop_23-2149018555.jpg" },
         { id: "t2", name: "2", role: "Lead Architect", imageSrc: "http://img.b2bpic.net/free-photo/concentrated-colleagues-watching-statistic-charts-talking-about-work-professional-senior-managers-young-assistant-preparing-business-plan-teamwork-management-partnership-concept_74855-14229.jpg?id=12615850" },
         { id: "t3", name: "3", role: "Construction Lead", imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-motivated-carpenter-standing-by-woodworking-machine-his-carpentry-workshop_342744-823.jpg" },
-        { id: "t4", name: "4", role: "Company Founder", imageSrc: "http://img.b2bpic.net/free-photo/professional-carpenter-checking-smoothness-wood-product-workshop_342744-828.jpg" },
+        { id: "t4", name: "4", role: "Company Founder", imageSrc: "http://img.b2bpic.net/free-photo/professional-carpenter-checking-smoothness-wood-product_342744-828.jpg" },
       ]}
       title="Our Team"
       description="Meet the team of local artisans bringing your dream home to life."
