@@ -10,8 +10,8 @@ import { Manrope } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: 'SmallTown Tiny Homes | Simple Living, Crafted Locally',
-  description: 'Artisan-crafted tiny homes for a simpler, sustainable life. Built with local pride in the heart of our community.',
+  title: "Sutton Tiny Homes",
+  description: "Artisan-crafted tiny homes for a simpler, sustainable life. Built with local pride in the heart of our community.",
 };
 
 const manrope = Manrope({
