@@ -40,6 +40,7 @@ export default function ContactPage() {
       description="Fill out the form below with your full name, email, and project details and we will reach out shortly to discuss your custom tiny home."
       tag="Contact Us"
       centered={true}
+      useInvertedBackground={false}
       className="max-w-2xl mx-auto py-24"
     />
   </div>
