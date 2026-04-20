@@ -2,11 +2,11 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import FooterSimple from '@/components/sections/footer/FooterSimple';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
+import MediaAbout from '@/components/sections/about/MediaAbout';
+import FooterSimple from '@/components/sections/footer/FooterSimple';
 
-export default function ProductsPage() {
+export default function AboutPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="hover-magnetic"
@@ -34,19 +34,13 @@ export default function ProductsPage() {
           />
         </div>
 
-        <div id="products" data-section="products">
-          <ProductCardFour
-            animationType="slide-up"
-            textboxLayout="default"
-            gridVariant="uniform-all-items-equal"
-            useInvertedBackground={true}
-            products={[
-              { id: "p1", name: "Home 1", price: "Price ", variant: "Rustic", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1775019572218-67juy9wv.png" },
-              { id: "p2", name: "Home 2", price: "Price", variant: "Modern", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1775019578586-hk1h1t8a.png" },
-              { id: "p3", name: "Home 3", price: "Price", variant: "Craftsman", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1775019582425-1lp5cx7c.png" },
-            ]}
-            title="Our Listings"
-            description="Thoughtfully designed spaces that maximize comfort and style."
+        <div id="about" data-section="about">
+          <MediaAbout
+            useInvertedBackground={false}
+            title="Our Story: Crafted in Small Town, USA"
+            description="Sutton Customized Tiny Homes was born from a passion for sustainable living and traditional local craftsmanship. We believe every small home should be a big reflection of your values, built with integrity right here in our community."
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930662778-ltrznsvr.png"
+            imageAlt="Small town craftsman workshop"
           />
         </div>
 
