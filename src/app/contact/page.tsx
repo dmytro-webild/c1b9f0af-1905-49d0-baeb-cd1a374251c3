@@ -2,17 +2,11 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactText from '@/components/sections/contact/ContactText';
-import Textarea from '@/components/form/Textarea';
+import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
-import { useState } from "react";
 
 export default function ContactPage() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [details, setDetails] = useState("");
-
   return (
     <ThemeProvider
         defaultButtonVariant="hover-magnetic"
@@ -41,42 +35,19 @@ export default function ContactPage() {
         </div>
 
         <div id="contact" data-section="contact">
-          <ContactText
-            text="Let's Build Your Dream"
-            background={{ variant: "plain" }}
+          <ContactSplitForm
+            title="Let's Build Your Dream"
+            description="Reach out to our team to discuss your custom tiny home project. We're here to help you every step of the way."
+            inputs={[
+              { name: "name", type: "text", placeholder: "Full Name", required: true },
+              { name: "email", type: "email", placeholder: "Email Address", required: true }
+            ]}
+            textarea={{ name: "details", placeholder: "Tell us about your project...", rows: 6, required: true }}
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928722379-cr0uqxpm.jpg"
+            imageAlt="Custom tiny house"
+            mediaPosition="right"
             useInvertedBackground={false}
-            className="max-w-2xl mx-auto py-24"
           />
-          <div className="max-w-2xl mx-auto px-6 pb-24">
-            <div className="flex flex-col gap-4 bg-[var(--card)] p-8 rounded-3xl">
-              <input 
-                type="text" 
-                placeholder="Your Name" 
-                value={name} 
-                onChange={(e) => setName(e.target.value)} 
-                className="w-full p-3 rounded-lg bg-[var(--background)] border border-[var(--accent)] text-[var(--foreground)]"
-              />
-              <input 
-                type="email" 
-                placeholder="Your Email" 
-                value={email} 
-                onChange={(e) => setEmail(e.target.value)} 
-                className="w-full p-3 rounded-lg bg-[var(--background)] border border-[var(--accent)] text-[var(--foreground)]"
-              />
-              <Textarea 
-                placeholder="Project Details" 
-                value={details} 
-                onChange={setDetails} 
-                rows={6}
-              />
-              <button 
-                onClick={() => alert("Message sent!")}
-                className="mt-4 py-3 bg-[var(--primary-cta)] text-[var(--primary-cta-text)] rounded-full font-semibold"
-              >
-                Send Details
-              </button>
-            </div>
-          </div>
         </div>
 
         <div id="footer" data-section="footer">
