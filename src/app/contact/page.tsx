@@ -41,6 +41,7 @@ export default function ContactPage() {
       description="Fill out the form below with your full name, email, and project details and we will reach out shortly to discuss your custom tiny home."
       buttonText="Submit Project Details"
       centered={true}
+      useInvertedBackground={false}
     />
   </div>
 
