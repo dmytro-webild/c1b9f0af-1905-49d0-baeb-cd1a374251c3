@@ -82,7 +82,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       title="Crafted with Care"
       description="Located in the heart of our community, we believe that small spaces should have big hearts. Every home we build is a testament to quality, sustainability, and the local spirit."
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930662778-ltrznsvr.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930662778-ltrznsvr.png?_wi=2"
       imageAlt="Small town craftsman workshop"
     />
   </div>

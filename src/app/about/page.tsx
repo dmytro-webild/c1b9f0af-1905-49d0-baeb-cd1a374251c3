@@ -39,7 +39,7 @@ export default function AboutPage() {
             useInvertedBackground={false}
             title="Our Story: Crafted in Small Town, USA"
             description="Sutton Customized Tiny Homes was born from a passion for sustainable living and traditional local craftsmanship. We believe every small home should be a big reflection of your values, built with integrity right here in our community."
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930662778-ltrznsvr.png"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930662778-ltrznsvr.png?_wi=1"
             imageAlt="Small town craftsman workshop"
           />
         </div>
