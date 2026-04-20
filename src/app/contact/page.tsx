@@ -43,7 +43,7 @@ export default function ContactPage() {
               { name: "email", type: "email", placeholder: "Email Address", required: true }
             ]}
             textarea={{ name: "details", placeholder: "Tell us about your project...", rows: 6, required: true }}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928722379-cr0uqxpm.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928722379-cr0uqxpm.jpg?_wi=1"
             imageAlt="Custom tiny house"
             mediaPosition="right"
             useInvertedBackground={false}
