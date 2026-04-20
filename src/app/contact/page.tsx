@@ -44,6 +44,7 @@ export default function ContactPage() {
           <ContactText
             text="Let's Build Your Dream"
             background={{ variant: "plain" }}
+            useInvertedBackground={false}
             className="max-w-2xl mx-auto py-24"
           />
           <div className="max-w-2xl mx-auto px-6 pb-24">
