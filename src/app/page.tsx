@@ -6,12 +6,10 @@ import FeatureCardThree from '@/components/sections/feature/featureCardThree/Fea
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
 import MediaAbout from '@/components/sections/about/MediaAbout';
-import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import TeamCardOne from '@/components/sections/team/TeamCardOne';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
-import { Calendar, Home, Users } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -115,21 +113,6 @@ export default function LandingPage() {
       ]}
       title="Our Team"
       description="Meet the team of local artisans bringing your dream home to life."
-    />
-  </div>
-
-  <div id="metrics" data-section="metrics">
-      <MetricCardThree
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={false}
-      metrics={[
-        { id: "m1", title: "Homes Delivered", value: "150+", icon: Home },
-        { id: "m2", title: "Community Members", value: "300+", icon: Users },
-        { id: "m3", title: "Years of Experience", value: "12+", icon: Calendar },
-      ]}
-      title="Our Impact"
-      description="We are proud of our contributions to the small town living experience."
     />
   </div>
 
