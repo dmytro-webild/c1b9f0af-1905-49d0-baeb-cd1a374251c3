@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
+import ContactForm from '@/components/form/ContactForm';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 
@@ -35,18 +35,12 @@ export default function ContactPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactSplitForm
+      <ContactForm
       title="Let's Build Your Dream"
       description="Fill out the form below with your full name, email, and project details and we will reach out shortly to discuss your custom tiny home."
-      inputs={[
-          { name: "name", type: "text", placeholder: "Full Name", required: true },
-          { name: "email", type: "email", placeholder: "Email Address", required: true }
-      ]}
-      textarea={{ name: "description", placeholder: "Project Description", rows: 5, required: true }}
-      buttonText="Submit Project Details"
-      mediaPosition="right"
-      useInvertedBackground={false}
-      className="max-w-3xl mx-auto py-12"
+      tag="Contact Us"
+      centered={true}
+      className="max-w-2xl mx-auto py-24"
     />
   </div>
 
