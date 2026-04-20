@@ -50,7 +50,7 @@ export default function LandingPage() {
         { text: "Contact Us", href: "/contact" },
       ]}
       mediaItems={[
-        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928722379-cr0uqxpm.jpg", imageAlt: "Tiny home cabin in forest" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928722379-cr0uqxpm.jpg?_wi=2", imageAlt: "Tiny home cabin in forest" },
         { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930538517-9ju843gs.jpg", imageAlt: "Tiny house exterior design" },
         { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774928761031-xjd7rlmt.webp", imageAlt: "Small house sunset view" },
         { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3Bh2MMhzp0UbH8j3hec2XpuT0pd/uploaded-1774930545087-5q4lr7c2.jpg", imageAlt: "Tiny home porch" },
