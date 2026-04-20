@@ -24,6 +24,7 @@ export default function ProductsPage() {
         <div id="nav" data-section="nav">
           <NavbarStyleCentered
             navItems={[
+              { name: "Home", id: "/" },
               { name: "Models", id: "/products" },
               { name: "Our Story", id: "/about" },
               { name: "Process", id: "/features" },
