@@ -46,7 +46,7 @@ export default function ContactPage() {
       buttonText="Submit Project Details"
       mediaPosition="right"
       useInvertedBackground={false}
-      className="max-w-4xl mx-auto"
+      className="max-w-3xl mx-auto py-12"
     />
   </div>
 
