@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCTA from '@/components/sections/contact/ContactCTA';
+import ContactForm from '@/components/form/ContactForm';
 import FooterSimple from '@/components/sections/footer/FooterSimple';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 
@@ -35,15 +35,12 @@ export default function ContactPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCTA
+      <ContactForm
       tag="Contact Us"
-      title="Get in Touch"
-      description="Have questions about our tiny homes? Send us a message and we'll get back to you soon."
-      buttons={[{ text: "Submit Inquiry", href: "#" }]}
-      className="flex justify-center items-center"
-      contentClassName="text-center"
-      background={{ variant: "plain" }}
-      useInvertedBackground={false}
+      title="Let's Build Your Dream"
+      description="Fill out the form below with your full name, email, and project details and we will reach out shortly to discuss your custom tiny home."
+      buttonText="Submit Project Details"
+      centered={true}
     />
   </div>
 
